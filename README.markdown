@@ -1,16 +1,15 @@
 Instalación de Paquetes Basicos
 ==============
 
-La froma mas facil de instalar los paquetes
+La forma mas facil de instalar los paquetes
 
 	# aptitude install texlive-latex-extra texlive-fonts-recommended lmodern
 
 
-Luego genera los .dvi
+Luego generar los .dvi
 
 	#latex cvjulioh.tex
 
-Para genera el .pdf
+Para generar el .pdf
 
 	# dvipdf cvjulioh.dvi
-
