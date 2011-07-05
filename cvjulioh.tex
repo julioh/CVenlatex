@@ -1,0 +1,156 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[orange]{casual}                 % casual optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} 
+\usepackage{graphicx}
+\usepackage{marvosym}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{\huge Julio Cesar}
+\familyname{\huge Hernández García}
+\title{Curriculum Vitae - Julio Cesar Hernández García}
+\address{Urb. Campo Alegre, Calle la Arboleda Casa Nº37, Carvajal, Edo. Trujillo, Venezuela}
+\mobile{04262799921}
+\phone{02712443302} 
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{juliochg@gmail.com}                      % optional, remove the line if not wanted
+\homepage{www.julioh.com.ve}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Curriculum Vitae }                 % optional, remove the line if not wanted
+%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
+
+%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+\begin{document}
+\maketitle
+%\makequote
+
+\section{Formación académica}
+\cventry{2008--2010}{Especialista en Gerencia de la Ciencia y la Tecnología}{Universidad Rafael Belloso Chacin}{}{}{}
+\cventry{2002--2008}{Ingeniero de Computación}{Universidad Valle del Momboy}{}{}{}
+\cventry{1997--2001}{Bachiller en Ciencias}{Colegio los Pirineos Don Boscos}{}{}{}
+
+\section{Formación complementaria}
+\cventry{2010}{Ingles Instrumental}{Universidad Valle del Momboy}{48h}{realizado entre 01/06 y 30/07/2010}{}
+\cventry{2010}{Cisco Networking Academy: Routing Protocols and Concepts}{Universidad Valle del Momboy}{60h}{realizado entre 01/03 y 30/06/2010}{}
+\cventry{2010}{Cisco Networking Academy: Networking Fundamentals}{Universidad Valle del Momboy}{60h}{realizado entre 04/01 y 19/02/2010}{}
+\cventry{2008}{Taller de Diseño de UML 2.1}{Biosoft C.A.}{32h}{realizado entre 30/08 y 03/08/2008}{}
+\cventry{2007}{Introducción a la Exploración y Producción}{Schulmberger}{16h}{realizado entre 01/07 y 02/07/2007}{}
+\cventry{2006}{Telecomunicaciones Inalámbricas}{Cantv}{60h}{realizado entre 02/05 y 02/07/2006}{}
+\cventry{2006}{Diplomado GNU/Linux}{Universidad Valle del Momboy}{192h}{realizado entre 02/05 y 02/07/2006}{}
+\cventry{2003}{Inspector Tecnico en Higiene y Seguridad Industrial}{Afiro C.A}{60h}{realizado entre 01/10 y 15/12/2003}{}
+\cventry{2003}{Supervisor Higiene,Seguridad Industrial y Riesgo Gasifero}{Afiro C.A}{60h}{realizado entre 01/10 y 15/12/2003}{}
+\cventry{2003}{Componente Academico de Ingles}{Universidad Valle del Momboy - VEN-USA}{253h}{realizado entre 01/04 y 14/10/2003}{}
+\cventry{2003}{Reparacion y Mantenimiento de Equipos}{Universidad Valle del Momboy}{8h}{realizado el 11/04/2003}{}
+\cventry{2000}{Internet y Correo Electronico}{Instituto Universitario de la Frontera}{14h}{realizado entre 01/08 y 12/08/2000}{}
+\cventry{2000}{Mantenimiento de Computadoras}{Instituto Universitario de la Frontera}{20h}{realizado entre 01/06 y 30/06/2000}{}
+
+\closesection{}
+\pagebreak{}
+\section{Experiencia Profesional}
+\cventry{2009}{Administrador de Sistemas y Plataforma}{Universidad Valle del Momboy}{Desarrollo de Software,Administracion de Servidores y Redes}{}{}.\hfill{\itshape\color{see}\footnotesize{}Actual Trabajo}
+\cventry{2009}{Profesor de Postgrado}{Universidad Valle del Momboy}{Sistemas de Informacion, Gerencia de la Ciencia y la Tecnologia}{}{}.\hfill{\itshape\color{see}\footnotesize{}}
+\cventry{2007-2009}{Analista y Soporte Tecnico}{Petróleos de Venezuela S.A }{}{}{Desarrolllo y Pruebas de Módulos de Software, Soporte Tecnico en Sitio.}
+\cventry{2006-2007}{Tesista}{C.V.G. Electrificación del Caroní C.A. }{}{}{Diseño y Especificaciones de la Migración de Plataforma
+Propietaria, hacia Software Libre, de los Scada en las Subestaciones de la C.V.G Electrificación del Caroní, C.A.}
+\cventry{2006}{Pasante}{C.V.G. Electrificación del Caroní C.A.}{}{}{ Desarrolló Web (PHP), para los Módulos Proveedores, Personal y Guía de Inducción de la División Planta Caruachi.}
+\cventry{2006}{Becado de Laboratorio de Computación}{Universidad Valle del Momboy}{Periodo Academico 2006-A}{}{Mantenimiento, Soporte, Redes, Administración de Servidores(Proxy, DNS, WEB, Correo, FTP) Bajo Plataforma de Software Libre.}
+\cventry{2005}{Becado de Laboratorio de Computación}{Universidad Valle del Momboy}{Periodo Academico 2005-C}{}{Mantenimiento, Soporte, Redes, Administración de Servidores(Proxy, DNS, WEB, Correo, FTP) Bajo Plataforma de Software Libre.}
+\cventry{2005}{Becado de Laboratorio de Computación}{Universidad Valle del Momboy}{Periodo Academico 2005-A}{}{Mantenimiento, Soporte, Redes, Administración de Servidores(Proxy, DNS, WEB, Correo, FTP) Bajo Plataforma de Software Libre.}
+\cventry{2004}{Becado de Laboratorio de Computación}{Universidad Valle del Momboy}{Periodo Academico 2004-C}{}{Mantenimiento, Soporte, Redes, Administración de Servidores(Proxy, DNS, WEB, Correo, FTP) Bajo Plataforma de Software Libre.}
+\cventry{2004}{Becado de Laboratorio de Computación}{Universidad Valle del Momboy}{Periodo Academico 2004-B}{}{Mantenimiento, Soporte, Redes, Administración de Servidores(Proxy, DNS, WEB, Correo, FTP) Bajo Plataforma de Software Libre.}
+
+\section{Idiomas}
+\cvlanguage{Español}{Nativo}{}
+\cvlanguage{Inglés}{Nivel medio}{}
+
+\closesection{}
+\pagebreak{}
+
+\section{Presentación en Conferencias y Congresos}
+\cventry{2010}{Ponente}{FLISOL(Festival Latinoamericano de Software Libre)}{Comunidad Software Libre Trujillo, UNESR, Fundacite Trujillo}{\textit{Servidores LAMP(Linux,Apache,Mysql,Php)}}{Valera,Trujillo - Venezuela}
+\cventry{2010}{Facilitador del Taller}{X Congreso ExpocTecnologia}{Universidad Valle del Momboy}{\textit{Servidores LAMP(Linux,Apache,Mysql,Php}}{Valera,Trujillo - Venezuela}
+\cventry{2007}{Ponente}{3er Congreso Nacional de Software Libre-Trujillo}{GNU/Linux Organizado en Venezuela}{\textit{CMS: Bajo Software Libre}}{Valera,Trujillo - Venezuela}
+\cventry{2007}{Ponente}{3er Congreso Nacional de Software Libre-Sucre}{GNU/Linux Organizado en Venezuela}{\textit{SCADA's: Bajo Software Libre}}{Maturin,Monagas - Venezuela}
+\cventry{2007}{Ponente}{3er Congreso Nacional de Software Libre-Sucre}{GNU/Linux Organizado en Venezuela}{\textit{SCADA's: Bajo Software Libre}}{Cumana,Sucre - Venezuela}
+\cventry{2007}{Ponente}{3er Congreso Nacional de Software Libre-Anzoategui}{GNU/Linux Organizado en Venezuela}{\textit{SCADA's: Bajo Software Libre}}{Puerto la Cruz,Anzoategui - Venezuela}
+\cventry{2007}{Ponente}{III Taller Internacional de Software Libre}{Informatica 2007}{\textit{CMS: Bajo Software Libre}}{La Habana - Cuba}
+\cventry{2006}{Ponente}{IV Foro Mundial de Conocimiento Libre}{SOLVE(Software Libre Venezuela)}{\textit{CMS: Bajo Software Libre}}{Maturin,Monagas - Venezuela}
+\cventry{2006}{Ponente}{Jornada de Instalacion de Software Libre}{Universidad Valle del Momboy}{\textit{¿Como Instalar GNU/Linux en Tu Computador?}}{Valera,Trujillo - Venezuela}
+
+\section{Organizacion de Eventos}
+\cventry{2010}{Organizador}{FLISOL(Festival Latinoamericano de Software Libre)}{Comunidad Software Libre Trujillo, UNESR, Fundacite Trujillo}{\textit{8h}}{Valera,Trujillo - Venezuela}
+\cventry{2010}{Soporte Tecnico}{X Congreso ExpoTecnologia}{Universidad Valle del Momboy}{\textit{16h}}{Valera,Trujillo - Venezuela}
+\cventry{2007}{Orgnanizador}{V Foro Mundial de Conocimiento Libre}{SOLVE(Software Libre Venezuela)}{\textit{32h}}{Puerto Ordaz,Bolivar - Venezuela}
+\cventry{2007}{Organizador}{3er Congreso Nacional de Software Libre-Guayana}{GNU/Linux Organizado en Venezuela}{\textit{16h}}{Puerto Ordaz,Bolivar - Venezuela}
+\cventry{2006}{Soporte Tecnico}{X Congreso ExpoTecnologia}{Universidad Valle del Momboy}{\textit{24h}}{Valera,Trujillo - Venezuela}
+
+\section{Eventos y Tutoriales}
+\cventry{2007}{Asistente}{Evento}{Informatica 2007}{\textit{XII Convencion y Expo Internacional}}{La Habana - Cuba}
+\cventry{2007}{Asistente}{Evento}{Universidad Centroccidental Lisandro Alvarado}{\textit{Jornadas Universitarias de Software Libre}}{Lara - Venezuelaerú}
+\cventry{2006}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{VI Congreso de Expotecnologia}}{Trujillo - Venezuela}
+\cventry{2005}{Asistente}{Evento}{SOLVE(Software Libre Venezuela)}{\textit{3er Foro Mundial de Conocimiento Libre}}{Zulia - Venezuela}
+\cventry{2005}{Asistente}{Evento}{UNPLUG(Grupo de Usuario de Linux)}{\textit{1er Congreso Nacional de Software Libre}}{Trujillo - Venezuela}
+\cventry{2005}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{Auditoria de Sistemas}}{Trujillo - Venezuela}
+\cventry{2004}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{IV Congreso de Expotecnologia}}{Trujillo - Venezuela}
+\cventry{2003}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{VI Jornadas de Desarrollo Humano Sustentable}}{Trujillo - Venezuela}
+\cventry{2003}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{III Congreso de Expotecnologia}}{Trujillo - Venezuela}
+\cventry{2003}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{III Congreso de Expotecnologia}}{Trujillo - Venezuela}
+\cventry{2002}{Asistente}{Evento}{Gerenplanif}{\textit{I Congreso Binacional}}{Merida - Venezuela}
+\cventry{2002}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{V Jornadas de Desarrollo Humano Sustentable}}{Trujillo - Venezuela}
+\cventry{2002}{Asistente}{Evento}{Universidad Valle del Momboy}{\textit{I Jornadas Tecnologicas en Gestion Municipal}}{Trujillo - Venezuela}
+\cventry{2002}{Asistente}{Evento}{Universidad Centroccidental Lisandro Alvarado}{\textit{XI Jornadas Infociencias}}{Lara - Venezuel}
+
+\closesection{}
+\pagebreak{}
+
+\section{Investigaciones y Publicaciones}
+\cventry{2010}{Jurado Principal}{Red de Tipo Mesh para el área geografica del consejo comunal "Cerro de los Betancures" de la poblacion de San Miguel Municipio Bocono Estado Trujillo}{Universidad Valle del Momboy}{Evaluada el 11/06/2010}{}
+\cventry{2000}{Prueba Final Teorica}{X Olimpiadas Venezolanas de Fisica}{CENAMEC (Centro Nacional para el Mejoramiento de la Enseñanza de la Ciencia)}{Evaluada el 01/06/2000}{}{}
+
+\section{Conocimientos}
+\cvcomputer{SO}{Gnu/Linux (Debian,Ubuntu, Mandriva, Suse,Fedora, Red Hat), Windows(98, XP y Vista), MS-DOS BSD(OpenBSD,FreeBSD,Pfsense,MoNoWall)}{Admin.}{Web, Proxy, DNS,FTP y Correo.}
+\cvcomputer{Ofimática}{Microsoft Office (Word, PowerPoint, Excel, Access) y OpenOffice.}{Hardware}{Ensamble de Equipos, Diagnostico de Fallas, Mantenimiento Preventivo del Computador.}
+\cvcomputer{Programación estructurada y OO}{Java, J2ME, ASP.NET, Visual Basic.NET, Python,Perl,C/C++ (y librerías GTK,QT, PVM, MPI, OpenMP) y COBOL.}{Utilidades}{Eclipse,Geany,Vim,Nano,Gedit, Kile, TexnicCenter, Protégé.}
+\cvcomputer{Programación Científica}{Matlab básico.}{Maquetación}{\LaTeX,Docbook}
+\cvcomputer{Programación I.A.}{CLIPS, Scheme, Prolog.}{Scripting}{Bash Scripting, C-Shell, PHP Avanzado.}
+\cvcomputer{Diseño Web}{HTML, XML, XSLT, XQuery, XPath, CSS.}{Base de datos}{MySQL, PostgreSQL, Oracle, SQLserver.}
+
+\end{document}
