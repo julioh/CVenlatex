@@ -1,6 +1,0 @@
-Instalar los Paquetes Basico para Trabajar
-aptitude install texlive-latex-extra texlive-fonts-recommended lmodern
-Luego generar un archivo .dvi
-latex cvjulioh.tex
-Luego Genera el .pdf
-dvipdf cvjulioh.dvi
