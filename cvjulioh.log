@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.8.6)  8 AUG 2012 11:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.8.6)  8 AUG 2012 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,21 +768,8 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 92.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 93.
 
-
-! Package xcolor Error: Undefined color `see'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 ...e Software}{}{}.\hfill{\itshape\color{see}
-                                                  \footnotesize{}Actual Trab...
-
-? 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 92.
 
 ! Package xcolor Error: Undefined color `see'.
 
@@ -794,6 +781,8 @@ l.93 ...istración}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}Actual Trab...
 
 ? 
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 93.
 
 ! Package xcolor Error: Undefined color `see'.
 
@@ -801,7 +790,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 ... s y Redes}{}{}.\hfill{\itshape\color{see}
+l.94 ...e Software}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
 
@@ -811,11 +800,21 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ...Tecnologia}{}{}.\hfill{\itshape\color{see}
+l.95 ...es y Redes}{}{}.\hfill{\itshape\color{see}
+                                                  \footnotesize{}}
+? 
+
+! Package xcolor Error: Undefined color `see'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...ecnología}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 107.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 108.
 
 Overfull \hbox (29.00826pt too wide) has occurred while \output is active
  []|[] 
@@ -828,20 +827,20 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 8170) in paragraph at lines 114--114
+Underfull \hbox (badness 8170) in paragraph at lines 115--115
 []\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 (+20) , \T1/lmss/m/sl/10.95 FLI
 SOL(Festival Lati-noamer-i-cano de Soft-ware Li-bre)\T1/lmss/m/n/10.95 (+20) , 
 Co-mu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/lmss/m/n/10.95 (+20) nidad Soft-ware Li-bre Tru-jillo, UN-ESR, Fun-dacite T
 ru-jillo, \T1/lmss/m/sl/10.95 Servi-dores
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 121--121
+Underfull \hbox (badness 1168) in paragraph at lines 122--122
 []\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 (+20) , \T1/lmss/m/sl/10.95 IV 
 Foro Mundial de Conocimiento Li-bre\T1/lmss/m/n/10.95 (+20) , SOLVE(Software Li
 -bre
@@ -924,14 +923,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `cvjulioh.out' has not changed.
-(rerunfilecheck)             Checksum: B1AF1D2D5F042EDA3A9F2AE76858A3C3;1438.
+(rerunfilecheck)             Checksum: 0B1D6C0D8FD41ED614E8E754D4804948;1441.
  ) 
 Here is how much of TeX's memory you used:
- 10047 strings out of 495059
- 146146 string characters out of 3182031
+ 10049 strings out of 495059
+ 146170 string characters out of 3182031
  280248 words of memory out of 3000000
  12973 multiletter control sequences out of 15000+200000
- 83017 words of font info for 94 fonts, out of 3000000 for 9000
+ 83118 words of font info for 95 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,15n,69p,774b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -944,7 +943,7 @@ xmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/marvosym/marvosym.pfb>
-Output written on cvjulioh.pdf (5 pages, 239006 bytes).
+Output written on cvjulioh.pdf (5 pages, 239062 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
