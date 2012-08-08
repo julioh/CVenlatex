@@ -19,72 +19,52 @@
 %THE SOFTWARE.
 
 
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-\documentclass[11pt,a4paper]{moderncv}
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% Temas de Moderncv
-\moderncvtheme[blue]{casual}                
-%Se pueden usar opcionalmente los siguientes colores 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-% Tema Clasico
-%\moderncvtheme[green]{classic}                
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
-% Codificacion
-\usepackage[utf8]{inputenc}                   
-\usepackage[T1]{fontenc}
-\usepackage{lmodern} 
-\usepackage{graphicx}
-\usepackage{marvosym}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
-% Ajustar margenes de la pagina
-\usepackage[scale=0.8]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
-%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+% personal data
+\firstname{Julio Cesar}
+\familyname{Hernández García}
+\title{Resumé - Julio Cesar Hernández García}               % optional, remove the line if not wanted
+\address{Urb. Campo Alegre, Calle la Arboleda Casa Nº37, Carvajal, Edo. Trujillo, Venezuela}{3101}    % optional, remove the line if not wanted
+\mobile{+58~(426)~279~9921}                     % optional, remove the line if not wanted
+\phone{+58~(271)~2444854}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{jhernandezgar@gmail.com}                          % optional, remove the line if not wanted
+\homepage{www.julioh.com.ve}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Resume}                % optional, remove the line if not wanted
 
-% Informacion Personal
-\firstname{\huge Julio Cesar}
-\familyname{\huge Hernández García}
-\title{Currículum Vítae - Julio Cesar Hernández García}
-\address{Urb. Campo Alegre, Calle la Arboleda Casa Nº37, Carvajal, Edo. Trujillo, Venezuela}
-\mobile{04262799921}
-\phone{02712444854} 
-%\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{jhernandezgar@gmail.com}                      % optional, remove the line if not wanted
-\homepage{www.julioh.com.ve}                % optional, remove the line if not wanted
-%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
-%\photo[64pt]{}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\quote{Currículum Vítae }                 % optional, remove the line if not wanted
-%\quote{Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius -- and a lot of courage -- to move in the opposite direction.}% also optional
-
-%\renewcommand{\listsymbol}{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}} % define another symbol to be used in front of the list items
-
-% the ConTeXt symbol
-\def\ConTeXt{%
-  C%
-  \kern-.0333emo%
-  \kern-.0333emn%
-  \kern-.0667em\TeX%
-  \kern-.0333emt}
-
-% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
-%\usepackage{slantsc}
-%\DeclareFontFamily{T1}{myfont}{}
-%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
-%\usefont{T1}{myfont}{m}{scsl}Testing the font
-
-% command and color used in this document, independently from moderncv 
-\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
-\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
-% to show numerical labels in the bibliography; only useful if you make citations in your resume
-\makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\makeatother
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
 
 % bibliography with mutiple entries
 %\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
 \begin{document}
-\maketitle
-%\makequote
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
 
 \section{Formación Académica}
 \cventry{2008--2010}{Especialista en Gerencia de la Ciencia y la Tecnología}{Universidad Rafael Belloso Chacin}{}{}{}
@@ -108,6 +88,7 @@
 
 \closesection{}
 \pagebreak{}
+
 \section{Experiencia Profesional}
 \cventry{2011}{Analista y Programador de Sistemas}{IUTEMBI - Instituto Universitario de Tecnología Mario Briceño Iragorry}{Desarrollo de Software}{}{}.\hfill{\itshape\color{see}\footnotesize{}Actual Trabajo}
 \cventry{2011}{Administrador}{Bisontech Soluciones CA}{Administración}{}{}.\hfill{\itshape\color{see}\footnotesize{}Actual Trabajo}
@@ -179,4 +160,28 @@ Propietaria, hacia Software Libre, de los Scada en las Subestaciones de la C.V.G
 \cvcomputer{Programación I.A.}{CLIPS, Scheme, Prolog.}{Scripting}{Bash Scripting, C-Shell, PHP Avanzado.}
 \cvcomputer{Diseño Web}{HTML, XML, XSLT, XQuery, XPath, CSS.}{Base de datos}{MySQL, PostgreSQL, Oracle, SQLserver.}
 
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+
+
+%\clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
+
+%% end of file `cvjulioh.tex'.
