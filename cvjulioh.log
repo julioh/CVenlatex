@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.8.6)  8 AUG 2012 10:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.8.6)  8 AUG 2012 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -760,7 +760,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -773,7 +773,7 @@ Overfull \hbox (29.00826pt too wide) has occurred while \output is active
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -834,7 +834,7 @@ Overfull \hbox (29.00826pt too wide) has occurred while \output is active
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -865,7 +865,7 @@ Overfull \hbox (29.00826pt too wide) has occurred while \output is active
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -876,7 +876,7 @@ Overfull \hbox (29.00826pt too wide) has occurred while \output is active
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -924,7 +924,7 @@ Overfull \hbox (29.00826pt too wide) has occurred while \output is active
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 63.91998pt.
+ Make it at least 50.31998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -940,7 +940,7 @@ Package rerunfilecheck Info: File `cvjulioh.out' has not changed.
 Here is how much of TeX's memory you used:
  10048 strings out of 495059
  146152 string characters out of 3182031
- 280173 words of memory out of 3000000
+ 280248 words of memory out of 3000000
  12973 multiletter control sequences out of 15000+200000
  83017 words of font info for 94 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -955,7 +955,7 @@ xmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/marvosym/marvosym.pfb>
-Output written on cvjulioh.pdf (6 pages, 239407 bytes).
+Output written on cvjulioh.pdf (6 pages, 239895 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
