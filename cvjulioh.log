@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  9 OCT 2012 10:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  9 OCT 2012 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,7 +768,18 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ...e Software}{}{}.\hfill{\itshape\color{see}
+l.95 ... Matricial}{}{}.\hfill{\itshape\color{see}
+                                                  \footnotesize{}Actual Trab...
+
+? 
+
+! Package xcolor Error: Undefined color `see'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...e Software}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
 
@@ -778,7 +789,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 ...es y Redes}{}{}.\hfill{\itshape\color{see}
+l.97 ...es y Redes}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
 
@@ -788,7 +799,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...ecnología}{}{}.\hfill{\itshape\color{see}
+l.98 ...ecnología}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
 
@@ -804,21 +815,21 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 111.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 , \T1/lmss/m/sl/10.95 FLISOL(Fe
 stival Lati-noamer-i-cano de Soft-ware Li-bre)\T1/lmss/m/n/10.95 , Co-mu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 \T1/lmss/m/n/10.95 nidad Soft-ware Li-bre Tru-jillo, UN-ESR, Fun-dacite Tru-jil
 lo, \T1/lmss/m/sl/10.95 Servi-dores
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 123--123
+Underfull \hbox (badness 1400) in paragraph at lines 124--124
 []\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 , \T1/lmss/m/sl/10.95 IV Foro M
 undial de Conocimiento Li-bre\T1/lmss/m/n/10.95 , SOLVE(Software Li-bre
  []
@@ -857,48 +868,48 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\T1/lmss/m/n/10 Gnu/Linux (De-bian,Ubuntu,
  []
 
 
-Overfull \hbox (41.98567pt too wide) in paragraph at lines 156--156
+Overfull \hbox (41.98567pt too wide) in paragraph at lines 157--157
 \T1/lmss/m/n/10 BSD(OpenBSD,FreeBSD,Pfsense,MoNoWall) 
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 157--157
+Underfull \hbox (badness 3439) in paragraph at lines 158--158
 []\T1/lmss/m/n/10 Microsoft Of-fice (Word, Pow-er-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 158--158
+Underfull \hbox (badness 3942) in paragraph at lines 159--159
 \T1/lmss/m/n/10 sic.NET, Python,Perl,C/C++ (y
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 158--158
+Underfull \hbox (badness 8019) in paragraph at lines 159--159
 \T1/lmss/m/n/10 li-br-er�as GTK,QT, PVM, MPI,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []\T1/lmss/m/n/10 Eclipse,Geany,Vim,Nano,Gedit,
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 159.
+(Font)              <10> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 159.
+(Font)              <7> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 159.
+(Font)              <5> on input line 160.
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/lmss/m/n/10 HTML, XML, XSLT, XQuery,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/lmss/m/n/10 MySQL, Post-greSQL, Or-a-cle,
  []
 
@@ -915,11 +926,11 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./cvjulioh.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `cvjulioh.out' has not changed.
 (rerunfilecheck)             Checksum: 0B1D6C0D8FD41ED614E8E754D4804948;1441.
  ) 
@@ -932,4 +943,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  49i,16n,69p,774b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on cvjulioh.dvi (6 pages, 37092 bytes).
+Output written on cvjulioh.dvi (6 pages, 37488 bytes).
