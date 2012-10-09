@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  9 OCT 2012 08:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  9 OCT 2012 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,8 +791,6 @@ Type  H <return>  for immediate help.
 l.97 ...ecnología}{}{}.\hfill{\itshape\color{see}
                                                   \footnotesize{}}
 ? 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 109.
 
 Overfull \hbox (29.00826pt too wide) has occurred while \output is active
  []|[] 
@@ -805,17 +803,9 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Overfull \hbox (29.00826pt too wide) has occurred while \output is active
- []|[] 
- []
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 111.
 
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 50.31998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 , \T1/lmss/m/sl/10.95 FLISOL(Fe
 stival Lati-noamer-i-cano de Soft-ware Li-bre)\T1/lmss/m/n/10.95 , Co-mu-
@@ -834,6 +824,17 @@ undial de Conocimiento Li-bre\T1/lmss/m/n/10.95 , SOLVE(Software Li-bre
  []
 
 
+Overfull \hbox (29.00826pt too wide) has occurred while \output is active
+ []|[] 
+ []
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 50.31998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
 Overfull \hbox (29.00826pt too wide) has occurred while \output is active
  []|[] 
  []
@@ -929,6 +930,6 @@ Here is how much of TeX's memory you used:
  12493 multiletter control sequences out of 15000+200000
  76034 words of font info for 55 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 49i,15n,69p,774b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,69p,774b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on cvjulioh.dvi (6 pages, 36796 bytes).
+Output written on cvjulioh.dvi (6 pages, 37092 bytes).
