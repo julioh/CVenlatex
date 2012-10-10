@@ -1,7 +1,7 @@
-Instalación de Paquetes Basicos
+Instalación de Paquetes Básicos
 ==============
 
-La forma mas facil de instalar los paquetes
+La forma mas fácil de instalar los paquetes
 
 	# aptitude install texlive-latex-extra texlive-fonts-recommended lmodern
 
