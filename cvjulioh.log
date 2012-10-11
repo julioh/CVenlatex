@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  11 OCT 2012 10:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.9)  11 OCT 2012 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,49 +883,56 @@ Underfull \hbox (badness 2293) in paragraph at lines 162--162
 /m/sl/10.95 Im-plantación de la In-fraestruc-tura Tec-no-log-
  []
 
+Runaway argument?
+! Paragraph ended before \cvlanguage was complete.
+<to be read again> 
+                   \par 
+l.168 
+      
+? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
 []\T1/lmss/m/n/10 Gnu/Linux (De-bian,Ubuntu,
  []
 
 
-Overfull \hbox (41.98567pt too wide) in paragraph at lines 166--166
+Overfull \hbox (41.98567pt too wide) in paragraph at lines 170--170
 \T1/lmss/m/n/10 BSD(OpenBSD,FreeBSD,Pfsense,MoNoWall) 
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 167--167
+Underfull \hbox (badness 3439) in paragraph at lines 171--171
 []\T1/lmss/m/n/10 Microsoft Of-fice (Word, Pow-er-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 168--168
+Underfull \hbox (badness 3942) in paragraph at lines 172--172
 \T1/lmss/m/n/10 sic.NET, Python,Perl,C/C++ (y
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 168--168
+Underfull \hbox (badness 8019) in paragraph at lines 172--172
 \T1/lmss/m/n/10 li-br-erías GTK,QT, PVM, MPI,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []\T1/lmss/m/n/10 Eclipse,Geany,Vim,Nano,Gedit,
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 169.
+(Font)              <10> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 169.
+(Font)              <7> on input line 173.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 169.
+(Font)              <5> on input line 173.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 []\T1/lmss/m/n/10 HTML, XML, XSLT, XQuery,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
 []\T1/lmss/m/n/10 MySQL, Post-greSQL, Or-a-cle,
  []
 
@@ -942,13 +949,20 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./cvjulioh.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
-Package rerunfilecheck Info: File `cvjulioh.out' has not changed.
-(rerunfilecheck)             Checksum: 0B1D6C0D8FD41ED614E8E754D4804948;1441.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+
+
+Package rerunfilecheck Warning: File `cvjulioh.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cvjulioh.out':
+(rerunfilecheck)             Before: 0B1D6C0D8FD41ED614E8E754D4804948;1441
+(rerunfilecheck)             After:  BA74D25A9E1CDE1D380BF6265F0E9CC3;1521.
  ) 
 Here is how much of TeX's memory you used:
  9456 strings out of 495060
@@ -959,4 +973,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  46i,16n,67p,774b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on cvjulioh.dvi (6 pages, 41420 bytes).
+Output written on cvjulioh.dvi (6 pages, 41768 bytes).
