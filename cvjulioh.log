@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2017.12.28)  28 DEC 2017 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2017.12.28)  28 DEC 2017 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,15 +1022,11 @@ LaTeX Info: Redefining \nameref on input line 64.
 \@outlinefile=\write3
 \openout3 = `cvjulioh.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 \makecvheadpicturebox=\box48
 \makecvheadpicturewidth=\skip85
 \makecvheadnamebox=\box49
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 67.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 67.
@@ -1150,38 +1146,35 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 112.
-
 ! Undefined control sequence.
 \mobilephonesymbol ->{\Large \faMobile 
                                        }~
-l.114 ...x}}{Caracas,Distrito Capital - Venezuela}
-                                                  
+l.110 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \emailsymbol ->{\small \faEnvelopeO 
                                     }~
-l.114 ...x}}{Caracas,Distrito Capital - Venezuela}
-                                                  
+l.110 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.114 ...x}}{Caracas,Distrito Capital - Venezuela}
-                                                  
+l.110 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.114 ...x}}{Caracas,Distrito Capital - Venezuela}
-                                                  
+l.110 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.114 ...x}}{Caracas,Distrito Capital - Venezuela}
-                                                  
+l.110 \pagebreak{
+                 }
 ? 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1190,19 +1183,22 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 113.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 , \T1/lmss/m/sl/10.95 FLISOL(F
 estival Lati-noamer-i-cano de Soft-ware Li-bre)\T1/lmss/m/n/10.95 , Co-mu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \T1/lmss/m/n/10.95 nidad Soft-ware Li-bre Tru-jillo, UN-ESR, Fun-dacite Tru-jil
 lo, \T1/lmss/m/sl/10.95 Servi-dores
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 124--124
+Underfull \hbox (badness 1400) in paragraph at lines 125--125
 []|\T1/lmss/bx/n/10.95 Ponente\T1/lmss/m/n/10.95 , \T1/lmss/m/sl/10.95 IV Foro 
 Mundial de Conocimiento Li-bre\T1/lmss/m/n/10.95 , SOLVE(Software Li-bre
  []
@@ -1210,32 +1206,32 @@ Mundial de Conocimiento Li-bre\T1/lmss/m/n/10.95 , SOLVE(Software Li-bre
 ! Undefined control sequence.
 \mobilephonesymbol ->{\Large \faMobile 
                                        }~
-l.129 ...textit{10h}}{Valera,Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \emailsymbol ->{\small \faEnvelopeO 
                                     }~
-l.129 ...textit{10h}}{Valera,Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.129 ...textit{10h}}{Valera,Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.129 ...textit{10h}}{Valera,Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.129 ...textit{10h}}{Valera,Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1247,32 +1243,32 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 ! Undefined control sequence.
 \mobilephonesymbol ->{\Large \faMobile 
                                        }~
-l.146 ...de Expotecnologia}}{Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \emailsymbol ->{\small \faEnvelopeO 
                                     }~
-l.146 ...de Expotecnologia}}{Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.146 ...de Expotecnologia}}{Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.146 ...de Expotecnologia}}{Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.146 ...de Expotecnologia}}{Trujillo - Venezuela}
-                                                  
+l.127 \pagebreak{
+                 }
 ? 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1281,40 +1277,35 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 2293) in paragraph at lines 159--159
-[]|\T1/lmss/bx/n/10.95 Proyecto de In-ves-ti-gación\T1/lmss/m/n/10.95 , \T1/lms
-s/m/sl/10.95 Im-plantación de la In-fraestruc-tura Tec-no-log-
- []
-
 ! Undefined control sequence.
 \mobilephonesymbol ->{\Large \faMobile 
                                        }~
-l.162 \pagebreak{
-                 }
+l.147 ...orÃ­a de Sistemas}}{Trujillo - Venezuela}
+                                                  
 ? 
 ! Undefined control sequence.
 \emailsymbol ->{\small \faEnvelopeO 
                                     }~
-l.162 \pagebreak{
-                 }
+l.147 ...orÃ­a de Sistemas}}{Trujillo - Venezuela}
+                                                  
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.162 \pagebreak{
-                 }
+l.147 ...orÃ­a de Sistemas}}{Trujillo - Venezuela}
+                                                  
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.162 \pagebreak{
-                 }
+l.147 ...orÃ­a de Sistemas}}{Trujillo - Venezuela}
+                                                  
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.162 \pagebreak{
-                 }
+l.147 ...orÃ­a de Sistemas}}{Trujillo - Venezuela}
+                                                  
 ? 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1323,84 +1314,40 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 165.
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]\T1/lmss/m/n/10 Gnu/Linux (De-bian,Ubuntu,
+Underfull \hbox (badness 2293) in paragraph at lines 161--161
+[]|\T1/lmss/bx/n/10.95 Proyecto de In-ves-ti-gación\T1/lmss/m/n/10.95 , \T1/lms
+s/m/sl/10.95 Im-plantación de la In-fraestruc-tura Tec-no-log-
  []
 
-
-Overfull \hbox (41.98567pt too wide) in paragraph at lines 170--170
-\T1/lmss/m/n/10 BSD(OpenBSD,FreeBSD,Pfsense,MoNoWall) 
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 171--171
-[]\T1/lmss/m/n/10 Microsoft Of-fice (Word, Pow-er-
- []
-
-
-Underfull \hbox (badness 3942) in paragraph at lines 172--172
-\T1/lmss/m/n/10 sic.NET, Python,Perl,C/C++ (y
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 172--172
-\T1/lmss/m/n/10 li-br-erías GTK,QT, PVM, MPI,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]\T1/lmss/m/n/10 Eclipse,Geany,Vim,Nano,Gedit,
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 173.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 173.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 173.
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\T1/lmss/m/n/10 HTML, XML, XSLT, XQuery,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\T1/lmss/m/n/10 MySQL, Post-greSQL, Or-a-cle,
- []
-
-No file cvjulioh.bbl.
 ! Undefined control sequence.
 \mobilephonesymbol ->{\Large \faMobile 
                                        }~
-l.193 \clearpage
-                
+l.164 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \emailsymbol ->{\small \faEnvelopeO 
                                     }~
-l.193 \clearpage
-                
+l.164 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.193 \clearpage
-                
+l.164 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.193 \clearpage
-                
+l.164 \pagebreak{
+                 }
 ? 
 ! Undefined control sequence.
 \homepagesymbol ->{\small \faGlobe 
                                    }~
-l.193 \clearpage
-                
+l.164 \pagebreak{
+                 }
 ? 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1409,28 +1356,144 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+! Undefined control sequence.
+\mobilephonesymbol ->{\Large \faMobile 
+                                       }~
+l.164 \pagebreak{
+                 }
+? 
+! Undefined control sequence.
+\emailsymbol ->{\small \faEnvelopeO 
+                                    }~
+l.164 \pagebreak{
+                 }
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.164 \pagebreak{
+                 }
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.164 \pagebreak{
+                 }
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.164 \pagebreak{
+                 }
+? 
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 50.31998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 167.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]\T1/lmss/m/n/10 Gnu/Linux (De-bian,Ubuntu,
+ []
+
+
+Overfull \hbox (41.98567pt too wide) in paragraph at lines 172--172
+\T1/lmss/m/n/10 BSD(OpenBSD,FreeBSD,Pfsense,MoNoWall) 
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 173--173
+[]\T1/lmss/m/n/10 Microsoft Of-fice (Word, Pow-er-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 174--174
+\T1/lmss/m/n/10 sic.NET, Python,Perl,C/C++ (y
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 174--174
+\T1/lmss/m/n/10 li-br-erías GTK,QT, PVM, MPI,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]\T1/lmss/m/n/10 Eclipse,Geany,Vim,Nano,Gedit,
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 175.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 175.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 175.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]\T1/lmss/m/n/10 HTML, XML, XSLT, XQuery,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]\T1/lmss/m/n/10 MySQL, Post-greSQL, Or-a-cle,
+ []
+
+No file cvjulioh.bbl.
+! Undefined control sequence.
+\mobilephonesymbol ->{\Large \faMobile 
+                                       }~
+l.195 \clearpage
+                
+? 
+! Undefined control sequence.
+\emailsymbol ->{\small \faEnvelopeO 
+                                    }~
+l.195 \clearpage
+                
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.195 \clearpage
+                
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.195 \clearpage
+                
+? 
+! Undefined control sequence.
+\homepagesymbol ->{\small \faGlobe 
+                                   }~
+l.195 \clearpage
+                
+? 
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 50.31998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./cvjulioh.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
-
-
-Package rerunfilecheck Warning: File `cvjulioh.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cvjulioh.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  DAB5ED5A37B7A364F1629A53218A76AD;1441.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package rerunfilecheck Info: File `cvjulioh.out' has not changed.
+(rerunfilecheck)             Checksum: DAB5ED5A37B7A364F1629A53218A76AD;1441.
  ) 
 Here is how much of TeX's memory you used:
- 19728 strings out of 494932
- 337595 string characters out of 6180876
- 430265 words of memory out of 5000000
- 22866 multiletter control sequences out of 15000+600000
+ 19738 strings out of 494932
+ 337705 string characters out of 6180876
+ 430919 words of memory out of 5000000
+ 22876 multiletter control sequences out of 15000+600000
  599779 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,14n,52p,10360b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cvjulioh.dvi (7 pages, 41460 bytes).
+Output written on cvjulioh.dvi (9 pages, 46928 bytes).
